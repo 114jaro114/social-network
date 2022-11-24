@@ -1,0 +1,92 @@
+// autofill light
+
+.theme--light input:-webkit-autofill,
+.theme--light input:-webkit-autofill:focus .theme--light input:-webkit-autofill,
+.theme--light input:-webkit-autofill:hover,
+.theme--light select:-webkit-autofill,
+.theme--light select:-webkit-autofill:focus,
+.theme--light select:-webkit-autofill:hover,
+.theme--light textarea:-webkit-autofill,
+.theme--light textarea:-webkit-autofill:hover .theme--light textarea:-webkit-autofill:focus {
+  border: none !important;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.87) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+// autofill dark
+
+.theme--dark input:-webkit-autofill,
+.theme--dark input:-webkit-autofill:focus .theme--dark input:-webkit-autofill,
+.theme--dark input:-webkit-autofill:hover,
+.theme--dark select:-webkit-autofill,
+.theme--dark select:-webkit-autofill:focus,
+.theme--dark select:-webkit-autofill:hover,
+.theme--dark textarea:-webkit-autofill,
+.theme--dark textarea:-webkit-autofill:hover .theme--dark textarea:-webkit-autofill:focus {
+  border: none !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+//media screens
+@media only screen and (max-width: 720px) {
+  .sign-controls {
+    width: 85vw;
+    text-align: center;
+    margin: auto;
+    top: 50vh;
+    right: 0 !important;
+    left: 0;
+    display: block !important;
+    padding-top: 0;
+  }
+
+  .login-content {
+    padding: 0;
+  }
+
+  .register-content {
+    padding: 0;
+  }
+
+  .text {
+    display: block !important;
+  }
+
+  .content {
+    top: 20vh !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sign-controls {
+    top: 45vh;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .sign-controls {
+    top: 40vh;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .sign-controls {
+    top: 35vh;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-right: 5px;
+  text-shadow: unset !important;
+  opacity: 1 !important;
+}
+
+.log-reg-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.close:focus,
+.col-12:focus {
+  outline: none;
+}

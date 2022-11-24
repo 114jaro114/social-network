@@ -1,0 +1,98 @@
+//light
+
+.theme--light .emoji-mart[data-v-7bc71df8] {
+  border: unset !important;
+}
+
+.theme--light .emoji-mart-category-label span[data-v-376cda0e] {
+  background-color: #fff !important;
+}
+
+.theme--light .emoji-mart {
+  background-color: #fff !important;
+}
+
+.theme--light .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar {
+  width: 15px;
+}
+
+.theme--light .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar-track {
+  background: #fff;
+  border-left: 1px solid #fff;
+}
+
+.theme--light .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar-thumb {
+  background: #e6e6e6;
+  border: solid 2px #fff;
+  border-radius: 7px;
+}
+
+.theme--light .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
+}
+//dark
+
+.theme--dark .emoji-mart[data-v-7bc71df8] {
+  border: unset !important;
+}
+
+.theme--dark .emoji-mart-category-label span[data-v-376cda0e] {
+  background-color: #363636 !important;
+}
+
+.theme--dark .emoji-mart {
+  background-color: #363636 !important;
+}
+
+.theme--dark .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar {
+  width: 15px;
+}
+
+.theme--dark .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar-track {
+  background: #363636;
+  border-left: 1px solid #363636;
+}
+
+.theme--dark .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar-thumb {
+  background: #1e1e1e;
+  border: solid 2px #363636;
+  border-radius: 7px;
+}
+
+.theme--dark .emoji-mart-scroll[data-v-7bc71df8]::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+}
+// .emoji-mart {
+//   top: 225px;
+// }
+
+.emoji-mart-bar {
+  border-bottom: 1px solid #1976d2 !important;
+}
+
+.theme--light .emoji-mart-category .emoji-mart-emoji[data-v-376cda0e]:before {
+  background-color: #e6e6e6;
+}
+
+.theme--dark .emoji-mart-category .emoji-mart-emoji[data-v-376cda0e]:before {
+  background-color: #1e1e1e;
+}
+
+.emoji-mart-anchor-selected[data-v-51188104],
+.emoji-mart-anchor[data-v-51188104]:hover {
+  color: #1976d2 !important;
+}
+
+.emoji-mart-anchor-selected .emoji-mart-anchor-bar[data-v-51188104] {
+  background-color: #1976d2 !important;
+}
+
+.emoji-mart {
+  height: 250px !important;
+  position: relative;
+}
+
+.menu {
+  top: 810px;
+  left: 410px;
+}

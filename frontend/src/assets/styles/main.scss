@@ -1,0 +1,95 @@
+@import 'libraries'; // @import 'messenger.scss';
+@import 'scrollbar.scss';
+@import 'emojiPicker.scss';
+@import 'welcomePage.scss'; /* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+  display: none;
+  height: 100vh;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+// .theme--light.v-sheet {
+//   background: #f5f5f5;
+// }
+
+.theme--dark.v-navigation-drawer {
+  background: #1e1e1e;
+}
+// .theme--light .v-list-item-group .v-list-item--active {
+//   color: #2196f3 !important;
+// }
+
+.theme--light.v-application {
+  background: #f5f5f5;
+}
+// .theme--dark.v-application {
+//   background: #161616;
+// }
+// .theme--dark.v-app-bar.v-toolbar.v-sheet {
+//   background-color: #1e1e1e !important;
+// }
+//
+// .theme--light.v-app-bar.v-toolbar.v-sheet {
+//   background-color: #1976d2 !important;
+// }
+
+.notifications .v-toolbar {
+  height: 64px !important;
+}
+
+.notifications .v-toolbar__content {
+  height: 60px !important;
+}
+
+.notifications .v-toolbar__extension {
+  height: 4px !important;
+}
+
+.v-app-bar.v-toolbar.v-sheet {
+  height: 64px !important;
+}
+
+.v-toolbar__content {
+  height: 64px !important;
+}
+
+.v-toolbar {
+  height: 64px !important;
+}
+
+.v-navigation-drawer {
+  top: 64px !important;
+  max-height: calc(100% - 64px) !important;
+}
+
+.phone-viewport {
+  display: none;
+}
+
+.v-speed-dial {
+  display: block !important;
+}
+@media only screen and (max-width: 480px) {
+  .v-speed-dial {
+    display: none !important;
+  }
+
+  .v-footer {
+    display: none !important;
+  }
+}
+
+.theme--dark.v-btn--active,
+.theme--light.v-btn--active {
+  color: #1976d2;
+}
