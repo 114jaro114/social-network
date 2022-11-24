@@ -169,7 +169,7 @@ export default {
     //   this.$recaptcha('login').then((token) => {
     //     console.log(token) // Will print the token
     //     axios.post(
-    //         `https://www.google.com/recaptcha/api/siteverify?secret=6LfbpgIcAAAAAFMpeCHNKMRnodKzrVXwja7QmU9i&response=${token}`, {}, {
+    //         `https://www.google.com/recaptcha/api/siteverify?secret=********&response=${token}`, {}, {
     //           headers: {
     //             "Content-Type": "application/x-www-form-urlencoded; charset=utf-8"
     //           },
@@ -182,7 +182,7 @@ export default {
     //
     // onCaptchaVerified() {
     //   this.$recaptcha('login').then((token) => {
-    //     const secretkey = '6LeaSgQcAAAAAEU_BHXN5pJyUWBglQsZqxwox_Ri';
+    //     const secretkey = '=********&';
     //     this.$refs.recaptcha.reset();
     //     console.log(token);
     //     axios.post(
