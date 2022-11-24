@@ -37,7 +37,7 @@ Vue.use(IconsPlugin)
 
 // For more options see below
 // Vue.use(VueReCaptcha, {
-//   siteKey: '6LfbpgIcAAAAAFMpeCHNKMRnodKzrVXwja7QmU9i',
+//   siteKey: '****',
 //   loaderOptions: {
 //     useRecaptchaNet: true,
 //     autoHideBadge: false
